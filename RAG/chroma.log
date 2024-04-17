@@ -1,0 +1,26 @@
+[33mWARNING[0m:  [11-04-2024 10:18:34] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [11-04-2024 10:18:34] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component System
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component SqliteDB
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component Posthog
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [11-04-2024 10:18:34] Starting component SegmentAPI
+[32mINFO[0m:     [11-04-2024 10:18:35] Started server process [[36m3648[0m]
+[32mINFO[0m:     [11-04-2024 10:18:35] Waiting for application startup.
+[32mINFO[0m:     [11-04-2024 10:18:35] Application startup complete.
+[32mINFO[0m:     [11-04-2024 10:18:35] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [11-04-2024 10:33:40] Shutting down
+[32mINFO[0m:     [11-04-2024 10:33:40] Waiting for application shutdown.
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component System
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component SegmentAPI
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component Posthog
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component SqliteDB
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [11-04-2024 10:33:40] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [11-04-2024 10:33:40] Application shutdown complete.
+[32mINFO[0m:     [11-04-2024 10:33:40] Finished server process [[36m3648[0m]

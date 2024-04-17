@@ -1,0 +1,5 @@
+Get started by installing the requirements: pip install -f requirements.txt
+Then run ChromaDB in a separate terminal: chroma run --host localhost --port 8000 --path ../vectordb-stores/chromadb
+Edit the list of docs in sourcedocs.txt
+Import the docs: python3 import.py
+Perform a search: python3 search.py <yoursearch>

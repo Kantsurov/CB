@@ -1,0 +1,8 @@
+FROM phi
+TEMPLATE """{{ if .System }}System: {{ .System }}{{ end }}
+User: {{ .Prompt }}
+Assistant:"""
+SYSTEM """A chat between a curious user and an artificial intelligence assistant that specialist in Cyber security. The assistant gives helpful answers to the user's questions."""
+PARAMETER stop "User:"
+PARAMETER stop "Assistant:"
+PARAMETER stop "System:"
